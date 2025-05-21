@@ -15,7 +15,7 @@ export default function ProcessingPage() {
     useEffect(() => {
         const timer = setTimeout(() => {
             router.push('/verify');
-        }, 20000);
+        }, 40000);
         return () => clearTimeout(timer);
     }, [router]);
 
